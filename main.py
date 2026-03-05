@@ -9,7 +9,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
 
 
-TOKEN = os.getenv("8656865785:AAE-2mZ1nwIk7SQdNVeotVuSSzCSakeY8KU")
+TOKEN = os.getenv('TOKEN')
 bot = Bot(token=TOKEN)
 
 PRICE_PER_KV = 100000
