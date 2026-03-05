@@ -7,8 +7,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
 
-# --- SOZLAMALAR ---
-TOKEN = "8656865785:AAGLsSdOPPeciWU6eC1yPAKN9lDU5idQyfA"
+
 PRICE_PER_KV = 100000
 FEE = 1.10 
 
