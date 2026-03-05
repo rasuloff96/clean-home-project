@@ -1,3 +1,4 @@
+import os
 import asyncio, sqlite3, logging
 from datetime import datetime, timedelta
 from aiogram import Bot, Dispatcher, types, F, Router
@@ -7,6 +8,9 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
 
+
+TOKEN = os.getenv("8656865785:AAE-2mZ1nwIk7SQdNVeotVuSSzCSakeY8KU")
+bot = Bot(token=TOKEN)
 
 PRICE_PER_KV = 100000
 FEE = 1.10 
